@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation*/
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.index-header
+{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("photos/catBack1.png") no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    margin-left: auto;
+    margin-top: auto;
+
+}
+
+.index-h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+/* Buttons */
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+/*Tables*/
+table, th, td
+{
+    border: 1px solid lightpink;
+    margin-top: 30px;
+    margin-left: 440px;
+    position: center;
+}
+
+.color-table
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+    width: 50%;
+}
+
+.img-w-h
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.mor-pho-div
+{
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    margin-left: auto;
+    margin-top: auto;
+}
